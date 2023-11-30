@@ -1,18 +1,17 @@
-package com.thewhite.restlesson.api.messages;
+package com.thewhite.aoplesson.api.messages;
 
-import com.thewhite.restlesson.api.messages.dto.CreateMessageDto;
-import com.thewhite.restlesson.api.messages.dto.MessageDto;
-import com.thewhite.restlesson.api.messages.mapper.MessageMapper;
-import com.thewhite.restlesson.model.Message;
-import com.thewhite.restlesson.service.MessageService;
-import com.thewhite.restlesson.service.argument.CreateMessageArgument;
+import com.thewhite.aoplesson.api.messages.dto.CreateMessageDto;
+import com.thewhite.aoplesson.api.messages.dto.MessageDto;
+import com.thewhite.aoplesson.api.messages.mapper.MessageMapper;
+import com.thewhite.aoplesson.model.Message;
+import com.thewhite.aoplesson.service.MessageService;
+import com.thewhite.aoplesson.service.argument.CreateMessageArgument;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

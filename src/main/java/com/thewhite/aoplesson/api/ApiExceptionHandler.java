@@ -1,7 +1,6 @@
-package com.thewhite.restlesson.api;
+package com.thewhite.aoplesson.api;
 
-import com.thewhite.restlesson.exception.NotFoundException;
-import jakarta.xml.bind.ValidationException;
+import com.thewhite.aoplesson.exception.NotFoundException;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 

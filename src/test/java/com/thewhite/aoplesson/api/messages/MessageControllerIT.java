@@ -1,9 +1,9 @@
-package com.thewhite.restlesson.api.messages;
+package com.thewhite.aoplesson.api.messages;
 
-import com.thewhite.restlesson.api.messages.dto.CreateMessageDto;
-import com.thewhite.restlesson.api.messages.dto.MessageDto;
-import com.thewhite.restlesson.model.Message;
-import com.thewhite.restlesson.repository.MessageRepository;
+import com.thewhite.aoplesson.api.messages.dto.CreateMessageDto;
+import com.thewhite.aoplesson.api.messages.dto.MessageDto;
+import com.thewhite.aoplesson.model.Message;
+import com.thewhite.aoplesson.repository.MessageRepository;
 import org.assertj.core.api.SoftAssertions;
 import org.assertj.core.api.junit.jupiter.SoftAssertionsExtension;
 import org.junit.jupiter.api.Test;
@@ -58,7 +58,7 @@ class MessageControllerIT {
                                        .text(text)
                                        .build());
 
-        assertions.assertThat(repository.findById(1L))
+        assertions.assertThat(repository.findById(1L).get())
                   .usingRecursiveComparison()
                   .withStrictTypeChecking()
                   .ignoringFields("createDate")

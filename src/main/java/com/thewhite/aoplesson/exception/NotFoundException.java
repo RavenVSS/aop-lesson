@@ -1,4 +1,4 @@
-package com.thewhite.restlesson.exception;
+package com.thewhite.aoplesson.exception;
 
 /**
  * Исключение - запись не найдена

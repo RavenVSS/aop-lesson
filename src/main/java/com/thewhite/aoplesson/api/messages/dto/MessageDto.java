@@ -1,4 +1,4 @@
-package com.thewhite.restlesson.api.messages.dto;
+package com.thewhite.aoplesson.api.messages.dto;
 
 import lombok.*;
 

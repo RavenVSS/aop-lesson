@@ -1,4 +1,4 @@
-package com.thewhite.restlesson.service.argument;
+package com.thewhite.aoplesson.service.argument;
 
 import lombok.Builder;
 import lombok.Value;

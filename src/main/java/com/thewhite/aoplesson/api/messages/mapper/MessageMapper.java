@@ -1,9 +1,9 @@
-package com.thewhite.restlesson.api.messages.mapper;
+package com.thewhite.aoplesson.api.messages.mapper;
 
-import com.thewhite.restlesson.api.messages.dto.CreateMessageDto;
-import com.thewhite.restlesson.api.messages.dto.MessageDto;
-import com.thewhite.restlesson.model.Message;
-import com.thewhite.restlesson.service.argument.CreateMessageArgument;
+import com.thewhite.aoplesson.api.messages.dto.CreateMessageDto;
+import com.thewhite.aoplesson.api.messages.dto.MessageDto;
+import com.thewhite.aoplesson.model.Message;
+import com.thewhite.aoplesson.service.argument.CreateMessageArgument;
 import org.mapstruct.AfterMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

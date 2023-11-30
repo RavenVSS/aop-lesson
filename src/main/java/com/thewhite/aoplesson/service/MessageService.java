@@ -1,7 +1,7 @@
-package com.thewhite.restlesson.service;
+package com.thewhite.aoplesson.service;
 
-import com.thewhite.restlesson.model.Message;
-import com.thewhite.restlesson.service.argument.CreateMessageArgument;
+import com.thewhite.aoplesson.model.Message;
+import com.thewhite.aoplesson.service.argument.CreateMessageArgument;
 
 import java.util.List;
 
